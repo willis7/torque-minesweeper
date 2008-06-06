@@ -1,0 +1,392 @@
+//-------------------------- 6/6/2008 -- 12:25:27 -----
+Processor Init:
+   Intel (unknown, Pentium Pro/II/III family), ~2.35 Ghz
+     (timed at roughly 2.37 Ghz)
+   FPU detected
+   MMX detected
+   SSE detected
+ 
+Math Init:
+   Installing Standard C extensions
+   Installing Assembly extensions
+   Installing FPU extensions
+   Installing MMX extensions
+   Installing SSE extensions
+ 
+Input Init:
+   keyboard0 input device created.
+   mouse0 input device created.
+   joystick0 input device created.
+   DirectInput enabled.
+
+Initializing chunk mappings...
+   o 'TEXT' maps to TextChunk
+   o 'SCHK' maps to UnknownChunk
+   o 'SCHK' maps to SimChunk
+--------- Loading MODS ---------
+Loading compiled script tutorial.base/main.cs.
+Loading compiled script common/main.cs.
+Loading compiled script tutorial.base/client/defaults.cs.
+Loading compiled script tutorial.base/server/defaults.cs.
+Compiling tutorial.base/prefs.cs...
+Loading compiled script tutorial.base/prefs.cs.
+Loading compiled script creator/main.cs.
+Loading compiled script common/main.cs.
+
+--------- Parsing Arguments ---------
+
+--------- Initializing MOD: Common ---------
+Loading compiled script common/client/canvas.cs.
+Loading compiled script common/client/audio.cs.
+
+--------- Initializing TTB: Server ---------
+Loading compiled script common/server/audio.cs.
+Loading compiled script common/server/server.cs.
+Loading compiled script common/server/message.cs.
+Loading compiled script common/server/commands.cs.
+Loading compiled script common/server/missionInfo.cs.
+Loading compiled script common/server/missionLoad.cs.
+Loading compiled script common/server/missionDownload.cs.
+Loading compiled script common/server/clientConnection.cs.
+Loading compiled script common/server/kickban.cs.
+Loading compiled script common/server/game.cs.
+Loading compiled script tutorial.base/server/game.cs.
+
+--------- Initializing TTB: Client ---------
+Loading compiled script common/client/message.cs.
+Loading compiled script common/client/mission.cs.
+Loading compiled script common/client/missionDownload.cs.
+Loading compiled script common/client/actionMap.cs.
+Video Init:
+   Accelerated OpenGL display device detected.
+   Accelerated D3D device detected.
+   Voodoo 2 display device not detected.
+
+Activating the OpenGL display device...
+Activating the OpenGL display device...
+Setting screen mode to 800x600x32 (w)...
+Creating a new window...
+Acquiring a new device context...
+Pixel format set:
+  32 color bits, 24 depth bits, 8 stencil bits
+Creating a new rendering context...
+Making the new rendering context current...
+OpenGL driver information:
+  Vendor: NVIDIA Corporation
+  Renderer: GeForce 8800 GTS/PCI/SSE2
+  Version: 2.1.0
+OpenGL Init: Enabled Extensions
+  ARB_multitexture (Max Texture Units: 4)
+  EXT_blend_color
+  EXT_blend_minmax
+  EXT_compiled_vertex_array
+  NV_vertex_array_range
+  EXT_texture_env_combine
+  EXT_packed_pixels
+  EXT_fog_coord
+  ARB_texture_compression
+  EXT_texture_compression_s3tc
+  (ARB|EXT)_texture_env_add
+  EXT_texture_filter_anisotropic (Max anisotropy: 16)
+  WGL_EXT_swap_control
+OpenGL Init: Disabled Extensions
+  EXT_paletted_texture
+  3DFX_texture_compression_FXT1
+
+Loading compiled script common/ui/defaultProfiles.cs.
+Loading compiled script common/ui/ConsoleDlg.gui.
+Loading compiled script common/ui/LoadFileDlg.gui.
+Loading compiled script common/ui/ColorPickerDlg.gui.
+Loading compiled script common/ui/SaveFileDlg.gui.
+Loading compiled script common/ui/MessageBoxOkDlg.gui.
+Loading compiled script common/ui/MessageBoxYesNoDlg.gui.
+Loading compiled script common/ui/MessageBoxOKCancelDlg.gui.
+Loading compiled script common/ui/MessagePopupDlg.gui.
+Loading compiled script common/ui/HelpDlg.gui.
+Loading compiled script common/ui/RecordingsDlg.gui.
+Loading compiled script common/ui/NetGraphGui.gui.
+Loading compiled script common/client/metrics.cs.
+Loading compiled script common/ui/FrameOverlayGui.gui.
+Loading compiled script common/client/messageBox.cs.
+Loading compiled script common/client/screenshot.cs.
+Loading compiled script common/client/cursor.cs.
+Loading compiled script common/client/help.cs.
+Loading compiled script common/client/recordings.cs.
+
+OpenAL Driver Init:
+OpenAL
+   Vendor: Creative Labs Inc.
+   Version: 1.1
+   Renderer: Software
+   Extensions: EAX EAX2.0 EAX3.0 EAX4.0 EAX5.0 EAX3.0EMULATED EAX4.0EMULATED AL_EXT_OFFSET AL_EXT_LINEAR_DISTANCE AL_EXT_EXPONENT_DISTANCE
+
+Loading compiled script tutorial.base/client/audioProfiles.cs.
+Loading compiled script tutorial.base/client/ui/PlayGui.gui.
+Loading compiled script tutorial.base/client/ui/mainMenuGui.gui.
+Loading compiled script tutorial.base/client/ui/optionsDlg.gui.
+Loading compiled script tutorial.base/client/ui/loadingGui.gui.
+Loading compiled script tutorial.base/client/optionsDlg.cs.
+Loading compiled script tutorial.base/client/missionDownload.cs.
+Loading compiled script tutorial.base/client/serverConnection.cs.
+Loading compiled script tutorial.base/client/loadingGui.cs.
+Loading compiled script tutorial.base/client/playGui.cs.
+Loading compiled script tutorial.base/client/default.bind.cs.
+Loading compiled script tutorial.base/client/clientGame.cs.
+
+--------- Initializing: Torque Creator ---------
+Loading compiled script creator/editor/editor.cs.
+Loading compiled script creator/editor/particleEditor.cs.
+Loading compiled script creator/scripts/scriptDoc.cs.
+Loading compiled script creator/ui/creatorProfiles.cs.
+Loading compiled script creator/ui/InspectDlg.gui.
+Loading compiled script creator/ui/GuiEditorGui.gui.
+Loading compiled script creator/ui/lightEditor.gui.
+Loading compiled script creator/ui/lightEditorNewDB.gui.
+Engine initialized...
+RSS Feed
+   - Requesting RSS data at URL: /garagegames/rss/product/tge/oobe
+   - Got 124 lines.
+   - Feed title: 'GarageGames: News Headlines'
+   - Feed link:  'http://www.garagegames.com/'
+   - Headline      #0 : 'GarageGames Forum News - May 27th'
+   - Headline Link #0 : 'http://feeds.feedburner.com/~r/garagegames/rss/product/tge/oobe/~3/299281713/14796'
+   - Headline      #1 : 'Press Release: GarageGames' Torque powers upcoming Penny Arcade game'
+   - Headline Link #1 : 'http://feeds.feedburner.com/~r/garagegames/rss/product/tge/oobe/~3/291107743/14740'
+   - Headline      #2 : 'GarageGames Forum News - May 2nd'
+   - Headline Link #2 : 'http://feeds.feedburner.com/~r/garagegames/rss/product/tge/oobe/~3/282363664/14682'
+tutorial.base/client/ui/mainMenuGui.gui (127): Unable to find object: 'RSSFeedMLText' attempting to call function 'setText'
+tutorial.base/client/ui/mainMenuGui.gui (129): Unable to find object: 'RSSFeedMLText' attempting to call function 'addText'
+tutorial.base/client/ui/mainMenuGui.gui (129): Unable to find object: 'RSSFeedMLText' attempting to call function 'addText'
+tutorial.base/client/ui/mainMenuGui.gui (129): Unable to find object: 'RSSFeedMLText' attempting to call function 'addText'
+tutorial.base/client/ui/mainMenuGui.gui (130): Unable to find object: 'RSSFeedMLText' attempting to call function 'addText'
+Exporting server prefs...
+Exporting server prefs...
+Loading compiled script tutorial.base/server/camera.cs.
+Loading compiled script tutorial.base/server/editor.cs.
+... Shape with old version.
+Loading compiled script tutorial.base/server/player.cs.
+Loading compiled script tutorial.base/server/logoitem.cs.
+Warning: shape tutorial.base/data/shapes/3dtorquelogo/torque_logo.dts collision detail 0 (Collision-1) bounds exceed that of shape.
+Loading compiled script tutorial.base/server/superbomb.cs.
+Loading compiled script common/server/lightingSystem.cs.
+
+//-----------------------------------------------
+
+Loading light datablocks from: common/lighting/lights/*.dso
+Loading compiled script common/lighting/lights/CottageLight.cs.
+Loading compiled script common/lighting/lights/sgBlueLightDataBlock.cs.
+Loading compiled script common/lighting/lights/sgDefaultLightDataBlock.cs.
+Loading compiled script common/lighting/lights/sgDynamicFireDataBlock.cs.
+Loading compiled script common/lighting/lights/sgFirePitPSDataBlock.cs.
+Loading compiled script common/lighting/lights/sgFirePitStaticPSDataBlock.cs.
+Loading compiled script common/lighting/lights/sgGooDataBlock.cs.
+Loading compiled script common/lighting/lights/sgLanternPSDataBlock.cs.
+Loading compiled script common/lighting/lights/sgMountLight.cs.
+Loading compiled script common/lighting/lights/sgRedLightDataBlock.cs.
+Loading compiled script common/lighting/lights/sgSpot2DataBlock.cs.
+Loading compiled script common/lighting/lights/sgSpotDataBlock.cs.
+Loading compiled script common/lighting/lights/sgSpotSwingStaticDataBlock.cs.
+Loading compiled script common/lighting/lights/sgTempleSmallWindowStaticPSDataBlock.cs.
+Loading compiled script common/lighting/lights/sgTempleTorchStaticPSDataBlock.cs.
+Loading compiled script common/lighting/lights/sgTempleWindowStaticPSDataBlock.cs.
+Loading compiled script common/lighting/lights/sgTowerFireLightDataBlock.cs.
+
+Loading light datablocks from: common/lighting/lights/*.cs
+Loading compiled script common/lighting/lights/sgTowerFireLightDataBlock.cs.
+Loading compiled script common/lighting/lights/sgTempleWindowStaticPSDataBlock.cs.
+Loading compiled script common/lighting/lights/sgTempleTorchStaticPSDataBlock.cs.
+Loading compiled script common/lighting/lights/sgTempleSmallWindowStaticPSDataBlock.cs.
+Loading compiled script common/lighting/lights/sgSpotSwingStaticDataBlock.cs.
+Loading compiled script common/lighting/lights/sgSpotDataBlock.cs.
+Loading compiled script common/lighting/lights/sgSpot2DataBlock.cs.
+Loading compiled script common/lighting/lights/sgRedLightDataBlock.cs.
+Loading compiled script common/lighting/lights/sgMountLight.cs.
+Loading compiled script common/lighting/lights/sgLanternPSDataBlock.cs.
+Loading compiled script common/lighting/lights/sgGooDataBlock.cs.
+Loading compiled script common/lighting/lights/sgFirePitStaticPSDataBlock.cs.
+Loading compiled script common/lighting/lights/sgFirePitPSDataBlock.cs.
+Loading compiled script common/lighting/lights/sgDynamicFireDataBlock.cs.
+Loading compiled script common/lighting/lights/sgDefaultLightDataBlock.cs.
+Loading compiled script common/lighting/lights/sgBlueLightDataBlock.cs.
+Loading compiled script common/lighting/lights/CottageLight.cs.
+Loading complete.
+//-----------------------------------------------
+
+
+//-----------------------------------------------
+
+Loading light datablocks from: common/lighting/filters/*.dso
+Loading compiled script common/lighting/filters/test.cs.
+
+Loading light datablocks from: common/lighting/filters/*.cs
+Loading compiled script common/lighting/filters/test.cs.
+Loading complete.
+//-----------------------------------------------
+
+*** LOADING MISSION: tutorial.base/data/missions/flat.mis
+*** Stage 1 load
+common/server/missionLoad.cs (23): Unable to find function clearCenterPrintAll
+common/server/missionLoad.cs (24): Unable to find function clearBottomPrintAll
+*** Stage 2 load
+Executing tutorial.base/data/missions/flat.mis.
+tutorial.base/data/interiors/environments.dts - Collision mesh names should start with Col or LOSCol, encountered 'default' in detail level 0
+*** Mission loaded
+Connect request from: IPX:696E496E:736964650031:14393
+Connection established 1443
+CADD: 1444 local
+*** Sending mission load to client: tutorial.base/data/missions/flat.mis
+Mapping string: ServerMessage to index: 0
+Mapping string: MsgConnectionError to index: 1
+Mapping string: MsgLoadInfo to index: 2
+Mapping string: MsgLoadDescripition to index: 3
+Mapping string: MsgLoadInfoDone to index: 4
+Mapping string: MsgClientJoin to index: 5
+Mapping string: Welcome to the Torque demo app %1. to index: 6
+Mapping string: Player to index: 7
+Mapping string: MissionStartPhase1 to index: 8
+*** New Mission: tutorial.base/data/missions/flat.mis
+*** Phase 1: Download Datablocks & Targets
+Mapping string: MissionStartPhase1Ack to index: 0
+RSS Feed
+   - Requesting RSS data at URL: /garagegames/rss/product/tge/oobe
+Warning: shape tutorial.base/data/shapes/3dtorquelogo/torque_logo.dts collision detail 1 (Collision-1) bounds exceed that of shape.
+   - Got 124 lines.
+   - Feed title: 'GarageGames: News Headlines'
+   - Feed link:  'http://www.garagegames.com/'
+   - Headline      #0 : 'GarageGames Forum News - May 27th'
+   - Headline Link #0 : 'http://feeds.feedburner.com/~r/garagegames/rss/product/tge/oobe/~3/299281713/14796'
+   - Headline      #1 : 'Press Release: GarageGames' Torque powers upcoming Penny Arcade game'
+   - Headline Link #1 : 'http://feeds.feedburner.com/~r/garagegames/rss/product/tge/oobe/~3/291107743/14740'
+   - Headline      #2 : 'GarageGames Forum News - May 2nd'
+   - Headline Link #2 : 'http://feeds.feedburner.com/~r/garagegames/rss/product/tge/oobe/~3/282363664/14682'
+tutorial.base/client/ui/mainMenuGui.gui (127): Unable to find object: 'RSSFeedMLText' attempting to call function 'setText'
+tutorial.base/client/ui/mainMenuGui.gui (129): Unable to find object: 'RSSFeedMLText' attempting to call function 'addText'
+tutorial.base/client/ui/mainMenuGui.gui (129): Unable to find object: 'RSSFeedMLText' attempting to call function 'addText'
+tutorial.base/client/ui/mainMenuGui.gui (129): Unable to find object: 'RSSFeedMLText' attempting to call function 'addText'
+tutorial.base/client/ui/mainMenuGui.gui (130): Unable to find object: 'RSSFeedMLText' attempting to call function 'addText'
+Mapping string: MissionStartPhase2 to index: 9
+*** Phase 2: Download Ghost Objects
+Mapping string: MissionStartPhase2Ack to index: 1
+tutorial.base/data/interiors/environments.dts - Collision mesh names should start with Col or LOSCol, encountered 'default' in detail level 0
+Ghost Always objects received.
+Mapping string: MissionStartPhase3 to index: 10
+Client Replication Startup has Happened!
+fxFoliageReplicator - Client Foliage Replication Startup is complete.
+*** Phase 3: Mission Lighting
+Lighting mission....
+
+//-----------------------------------------------
+Synapse Gaming Lighting Pack
+
+Starting scene lighting...
+  Starting TGE based scene lighting...
+    Lighting with light #1 (TGE vector light)...
+      Lighting object 1 of 8...
+      Object lighting complete (0.375 seconds)
+      Lighting interior object 2 of 8 (tutorial.base/data/interiors/accessories/fountain/fntn.dif)...
+      Object lighting complete (0.000 seconds)
+      Lighting interior object 3 of 8 (tutorial.base/data/interiors/buildings/tav3.dif)...
+      Object lighting complete (0.000 seconds)
+      Lighting interior object 4 of 8 (tutorial.base/data/interiors/buildings/med5.dif)...
+      Object lighting complete (0.000 seconds)
+      Lighting interior object 5 of 8 (tutorial.base/data/interiors/buildings/church.dif)...
+      Object lighting complete (0.000 seconds)
+      Lighting interior object 6 of 8 (tutorial.base/data/interiors/buildings/bar2.dif)...
+      Object lighting complete (0.000 seconds)
+      Lighting interior object 7 of 8 (tutorial.base/data/interiors/buildings/shops/med1.dif)...
+      Object lighting complete (0.000 seconds)
+      Lighting interior object 8 of 8 (tutorial.base/data/interiors/tower/tower.dif)...
+      Object lighting complete (0.000 seconds)
+  TGE based scene lighting complete (0.438 seconds)
+  Starting Synapse Gaming Lighting Pack scene lighting...
+    Lighting object 1 of 8...
+    Object lighting complete (0.000 seconds)
+    Lighting interior object 2 of 8 (tutorial.base/data/interiors/accessories/fountain/fntn.dif)...
+    Object lighting complete (0.047 seconds)
+    Lighting interior object 3 of 8 (tutorial.base/data/interiors/buildings/tav3.dif)...
+    Object lighting complete (0.172 seconds)
+    Lighting interior object 4 of 8 (tutorial.base/data/interiors/buildings/med5.dif)...
+    Object lighting complete (0.140 seconds)
+    Lighting interior object 5 of 8 (tutorial.base/data/interiors/buildings/church.dif)...
+    Object lighting complete (0.469 seconds)
+    Lighting interior object 6 of 8 (tutorial.base/data/interiors/buildings/bar2.dif)...
+    Object lighting complete (0.141 seconds)
+    Lighting interior object 7 of 8 (tutorial.base/data/interiors/buildings/shops/med1.dif)...
+    Object lighting complete (0.109 seconds)
+    Lighting interior object 8 of 8 (tutorial.base/data/interiors/tower/tower.dif)...
+    Object lighting complete (3.187 seconds)
+  Synapse Gaming Lighting Pack scene lighting complete (4.859 seconds)
+
+  Lighting Pack lighting system stats:
+    Interior Lexel Count:                        2082104
+    Interior Lexel Illumination Count:           2075937
+    Interior Lexel Illumination Time (ms):       0.001718
+    Interior Lexel Illumination Time Total (ms): 3566
+    Interior Lexel Diffuse Count:                894109
+    Interior Object Count:                       8
+    Interior Object Included Count:              7
+    Interior Object Illumination Count:          7
+    Interior Surface Included Count:             47432
+    Interior Surface Illumination Count:         35976
+    Interior Surface Illuminated Count:          35976
+    Interior Surface Smoothed Count:             0
+    Interior Surface Smoothed Lexel Count:       0
+    Interior Surface Setup Count:                47436
+    Interior Surface Setup Time Total (ms):      327
+    Interior Surface Merge Count:                35972
+    Interior Surface Merge Time Total (ms):      171
+    Static Mesh BVPT Potential Occluder Count:   0
+    Static Mesh Cast Ray Mesh Count:             0
+    Static Mesh Surface Occluder Count:          0
+    Terrain Lexel Count:                         0
+    Terrain Lexel Time (ms):                     0.000000
+    Terrain Lexel Time Total (ms):               0
+Successfully saved mission lighting file: 'tutorial.base/data/missions/flat_61211f07.ml'
+Total light map memory: 14.368M
+Scene lighting complete (5.422 seconds)
+//-----------------------------------------------
+
+Mission lighting done
+Mapping string: MissionStartPhase3Ack to index: 2
+Mapping string: MissionStart to index: 11
+Could not register dust emitter for class: PlayerBody
+Could not register dust emitter for class: PlayerBody
+Could not register dust emitter for class: PlayerBody
+*** Initial Control Object
+Activating DirectInput...
+keyboard0 input device acquired.
+*** ENDING MISSION
+CDROP: 1444 IPX:696E496E:736964650031:14393
+Exporting server prefs...
+RSS Feed
+   - Requesting RSS data at URL: /garagegames/rss/product/tge/oobe
+   - Got 124 lines.
+   - Feed title: 'GarageGames: News Headlines'
+   - Feed link:  'http://www.garagegames.com/'
+   - Headline      #0 : 'GarageGames Forum News - May 27th'
+   - Headline Link #0 : 'http://feeds.feedburner.com/~r/garagegames/rss/product/tge/oobe/~3/299281713/14796'
+   - Headline      #1 : 'Press Release: GarageGames' Torque powers upcoming Penny Arcade game'
+   - Headline Link #1 : 'http://feeds.feedburner.com/~r/garagegames/rss/product/tge/oobe/~3/291107743/14740'
+   - Headline      #2 : 'GarageGames Forum News - May 2nd'
+   - Headline Link #2 : 'http://feeds.feedburner.com/~r/garagegames/rss/product/tge/oobe/~3/282363664/14682'
+tutorial.base/client/ui/mainMenuGui.gui (127): Unable to find object: 'RSSFeedMLText' attempting to call function 'setText'
+tutorial.base/client/ui/mainMenuGui.gui (129): Unable to find object: 'RSSFeedMLText' attempting to call function 'addText'
+tutorial.base/client/ui/mainMenuGui.gui (129): Unable to find object: 'RSSFeedMLText' attempting to call function 'addText'
+tutorial.base/client/ui/mainMenuGui.gui (129): Unable to find object: 'RSSFeedMLText' attempting to call function 'addText'
+tutorial.base/client/ui/mainMenuGui.gui (130): Unable to find object: 'RSSFeedMLText' attempting to call function 'addText'
+keyboard0 input device unacquired.
+DirectInput deactivated.
+   keyboard0 input device created.
+   mouse0 input device created.
+   joystick0 input device created.
+Activating DirectInput...
+keyboard0 input device acquired.
+keyboard0 input device unacquired.
+DirectInput deactivated.
+Exporting prefs
+Exporting client prefs
+Exporting server prefs
+Shutting down the OpenGL display device...
+Making the GL rendering context not current...
+Deleting the GL rendering context...
+Releasing the device context...

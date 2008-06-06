@@ -1,0 +1,333 @@
+//--- OBJECT WRITE BEGIN ---
+new SimGroup(MissionGroup) {
+   canSaveDynamicFields = "1";
+
+   new ScriptObject(MissionInfo) {
+         name = "F World";
+         desc0 = "The tutorial base example mission. This mission contains a minimal set of example art and textures.";
+   };
+   new MissionArea(MissionArea) {
+      canSaveDynamicFields = "1";
+      Area = "-88 -448 448 416";
+      flightCeiling = "300";
+      flightCeilingRange = "20";
+         locked = "true";
+   };
+   new Sky(Sky) {
+      canSaveDynamicFields = "1";
+      position = "336 136 0";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      materialList = "~/data/skies/sky_day.dml";
+      cloudHeightPer[0] = "0.349971";
+      cloudHeightPer[1] = "0.25";
+      cloudHeightPer[2] = "0.199973";
+      cloudSpeed1 = "0.0001";
+      cloudSpeed2 = "0.0002";
+      cloudSpeed3 = "0.0003";
+      visibleDistance = "500";
+      fogDistance = "300";
+      fogColor = "0.82 0.828 0.844 1";
+      fogStorm1 = "0";
+      fogStorm2 = "0";
+      fogStorm3 = "0";
+      fogVolume1 = "300 0 71";
+      fogVolume2 = "0 0 0";
+      fogVolume3 = "0 0 0";
+      fogVolumeColor1 = "128 128 128 -2.22768e+038";
+      fogVolumeColor2 = "128 128 128 0";
+      fogVolumeColor3 = "128 128 128 -1.70699e+038";
+      windVelocity = "1 1 0";
+      windEffectPrecipitation = "1";
+      SkySolidColor = "0.547 0.641 0.789 0";
+      useSkyTextures = "1";
+      renderBottomTexture = "0";
+      noRenderBans = "0";
+         locked = "true";
+   };
+   new Sun() {
+      canSaveDynamicFields = "1";
+      azimuth = "0";
+      elevation = "35";
+      color = "0.988 0.985 0.98 1";
+      ambient = "0.5 0.5 0.5 1";
+      CastsShadows = "1";
+         position = "0 0 0";
+         locked = "true";
+         rotation = "1 0 0 0";
+         scale = "1 1 1";
+         direction = "0.57735 0.57735 -0.57735";
+   };
+   new TerrainBlock(terrain) {
+      canSaveDynamicFields = "1";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      terrainFile = "./flat.ter";
+      squareSize = "8";
+      emptySquares = "99744 443522 443778 444034";
+      bumpScale = "1";
+      bumpOffset = "0.01";
+      zeroBumpScale = "8";
+      tile = "1";
+         position = "-1024 -1024 0";
+         locked = "true";
+   };
+   new SimGroup(PlayerDropPoints) {
+      canSaveDynamicFields = "1";
+
+      new SpawnSphere() {
+         canSaveDynamicFields = "1";
+         position = "-7.2015 -385.37 9.23599";
+         rotation = "0 0 1 130.062";
+         scale = "1 1 1";
+         dataBlock = "SpawnSphereMarker";
+         Radius = "100";
+         sphereWeight = "100";
+         indoorWeight = "100";
+         outdoorWeight = "100";
+            lockCount = "0";
+            locked = "False";
+            homingCount = "0";
+      };
+   };
+   new SimGroup(Bombs) {
+      canSaveDynamicFields = "1";
+
+      new Item() {
+         canSaveDynamicFields = "1";
+         position = "260.85 -163.442 1.19524";
+         rotation = "1 0 0 0";
+         scale = "1 1 1";
+         dataBlock = "SuperBomb";
+         collidable = "0";
+         static = "1";
+         rotate = "1";
+      };
+      new Item() {
+         canSaveDynamicFields = "1";
+         position = "241.813 -294.898 1.9541";
+         rotation = "1 0 0 0";
+         scale = "1 1 1";
+         dataBlock = "SuperBomb";
+         collidable = "0";
+         static = "1";
+         rotate = "1";
+      };
+      new Item() {
+         canSaveDynamicFields = "1";
+         position = "113.395 -206.111 1.19524";
+         rotation = "1 0 0 0";
+         scale = "1 1 1";
+         dataBlock = "SuperBomb";
+         collidable = "0";
+         static = "1";
+         rotate = "1";
+      };
+      new Item() {
+         canSaveDynamicFields = "1";
+         position = "-18.4313 -144.162 3.1287";
+         rotation = "1 0 0 0";
+         scale = "1 1 1";
+         dataBlock = "SuperBomb";
+         collidable = "0";
+         static = "1";
+         rotate = "1";
+      };
+      new Item() {
+         canSaveDynamicFields = "1";
+         position = "96.1828 -366.801 5.54092";
+         rotation = "1 0 0 0";
+         scale = "1 1 1";
+         dataBlock = "SuperBomb";
+         collidable = "0";
+         static = "1";
+         rotate = "1";
+      };
+      new Item() {
+         canSaveDynamicFields = "1";
+         position = "123.502 -201.009 1.21261";
+         rotation = "1 0 0 0";
+         scale = "1 1 1";
+         dataBlock = "SuperBomb";
+         collidable = "0";
+         static = "1";
+         rotate = "1";
+      };
+      new Item() {
+         canSaveDynamicFields = "1";
+         position = "214.972 -303.351 6.42825";
+         rotation = "1 0 0 0";
+         scale = "1 1 1";
+         dataBlock = "SuperBomb";
+         collidable = "0";
+         static = "1";
+         rotate = "1";
+      };
+   };
+   new SimGroup(Buildings) {
+      canSaveDynamicFields = "1";
+
+      new InteriorInstance() {
+         canSaveDynamicFields = "1";
+         position = "174.446 -227.46 13.925";
+         rotation = "1 0 0 0";
+         scale = "1 1 1";
+         interiorFile = "~/data/interiors/accessories/fountain/fntn.dif";
+         useGLLighting = "0";
+         showTerrainInside = "0";
+      };
+      new InteriorInstance() {
+         canSaveDynamicFields = "1";
+         position = "198.843 -304.157 13.7875";
+         rotation = "1 0 0 0";
+         scale = "1 1 1";
+         interiorFile = "~/data/interiors/buildings/tav3.dif";
+         useGLLighting = "0";
+         showTerrainInside = "0";
+      };
+      new InteriorInstance() {
+         canSaveDynamicFields = "1";
+         position = "73.886 -378.852 38.925";
+         rotation = "1 0 0 0";
+         scale = "1 1 1";
+         interiorFile = "~/data/interiors/buildings/med5.dif";
+         useGLLighting = "0";
+         showTerrainInside = "0";
+      };
+      new InteriorInstance() {
+         canSaveDynamicFields = "1";
+         position = "223.101 -184.363 13.9125";
+         rotation = "1 0 0 0";
+         scale = "1 1 1";
+         interiorFile = "~/data/interiors/buildings/church.dif";
+         useGLLighting = "0";
+         showTerrainInside = "0";
+      };
+      new InteriorInstance() {
+         canSaveDynamicFields = "1";
+         position = "-52.4313 -142.067 24.425";
+         rotation = "1 0 0 0";
+         scale = "1 1 1";
+         interiorFile = "~/data/interiors/buildings/bar2.dif";
+         useGLLighting = "0";
+         showTerrainInside = "0";
+      };
+      new InteriorInstance() {
+         canSaveDynamicFields = "1";
+         position = "137.8 -151.221 44.25";
+         rotation = "1 0 0 0";
+         scale = "1 1 1";
+         interiorFile = "~/data/interiors/buildings/shops/med1.dif";
+         useGLLighting = "0";
+         showTerrainInside = "0";
+      };
+   };
+   new TSStatic() {
+      canSaveDynamicFields = "1";
+      position = "48.111 -304.052 -19.4562";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      shapeName = "~/data/interiors/environments/treeb.dts";
+      receiveSunLight = "1";
+      receiveLMLighting = "1";
+      useAdaptiveSelfIllumination = "0";
+      useCustomAmbientLighting = "0";
+      customAmbientSelfIllumination = "0";
+      customAmbientLighting = "0 0 0 1";
+      useLightingOcclusion = "1";
+   };
+   new TSStatic() {
+      canSaveDynamicFields = "1";
+      position = "200.442 -330.841 -19.3684";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      shapeName = "~/data/interiors/environments/treec.dts";
+      receiveSunLight = "1";
+      receiveLMLighting = "1";
+      useAdaptiveSelfIllumination = "0";
+      useCustomAmbientLighting = "0";
+      customAmbientSelfIllumination = "0";
+      customAmbientLighting = "0 0 0 1";
+      useLightingOcclusion = "1";
+   };
+   new TSStatic() {
+      canSaveDynamicFields = "1";
+      position = "153.841 -286.118 -0.59389";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      shapeName = "~/data/interiors/environments/deadtree.dts";
+      receiveSunLight = "1";
+      receiveLMLighting = "1";
+      useAdaptiveSelfIllumination = "0";
+      useCustomAmbientLighting = "0";
+      customAmbientSelfIllumination = "0";
+      customAmbientLighting = "0 0 0 1";
+      useLightingOcclusion = "1";
+   };
+   new TSStatic() {
+      canSaveDynamicFields = "1";
+      position = "115.767 -353.177 -2.51349";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      shapeName = "~/data/interiors/environments/treed.dts";
+      receiveSunLight = "1";
+      receiveLMLighting = "1";
+      useAdaptiveSelfIllumination = "0";
+      useCustomAmbientLighting = "0";
+      customAmbientSelfIllumination = "0";
+      customAmbientLighting = "0 0 0 1";
+      useLightingOcclusion = "1";
+   };
+   new TSStatic() {
+      canSaveDynamicFields = "1";
+      position = "58.1452 -188.056 1.39843";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      shapeName = "~/data/interiors/environments/rock4.dts";
+      receiveSunLight = "1";
+      receiveLMLighting = "1";
+      useAdaptiveSelfIllumination = "0";
+      useCustomAmbientLighting = "0";
+      customAmbientSelfIllumination = "0";
+      customAmbientLighting = "0 0 0 1";
+      useLightingOcclusion = "1";
+   };
+   new TSStatic() {
+      canSaveDynamicFields = "1";
+      position = "87.7795 -128.383 -16.5417";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      shapeName = "~/data/interiors/environments/rock2.dts";
+      receiveSunLight = "1";
+      receiveLMLighting = "1";
+      useAdaptiveSelfIllumination = "0";
+      useCustomAmbientLighting = "0";
+      customAmbientSelfIllumination = "0";
+      customAmbientLighting = "0 0 0 1";
+      useLightingOcclusion = "1";
+   };
+   new TSStatic() {
+      canSaveDynamicFields = "1";
+      position = "1570.05 -364.362 2.3125e-006";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      shapeName = "~/data/interiors/buildings/fan.dts";
+      receiveSunLight = "1";
+      receiveLMLighting = "1";
+      useAdaptiveSelfIllumination = "0";
+      useCustomAmbientLighting = "0";
+      customAmbientSelfIllumination = "0";
+      customAmbientLighting = "0 0 0 1";
+      useLightingOcclusion = "1";
+   };
+   new InteriorInstance() {
+      canSaveDynamicFields = "1";
+      position = "269.72 -212.586 -39.75";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors/tower/tower.dif";
+      useGLLighting = "0";
+      showTerrainInside = "0";
+   };
+};
+//--- OBJECT WRITE END ---

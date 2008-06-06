@@ -1,0 +1,46 @@
+//--- OBJECT WRITE BEGIN ---
+new GameTSCtrl(PlayGui) {
+   canSaveDynamicFields = "1";
+   Profile = "GuiContentProfile";
+   HorizSizing = "right";
+   VertSizing = "bottom";
+   position = "0 0";
+   Extent = "640 480";
+   MinExtent = "8 8";
+   canSave = "1";
+   Visible = "1";
+   hovertime = "1000";
+   applyFilterToChildren = "1";
+   cameraZRot = "0";
+   forceFOV = "0";
+      noCursor = "1";
+      helpTag = "0";
+
+   new GuiTextCtrl(BombCounter) {
+      canSaveDynamicFields = "0";
+      Profile = "GuiBigTextProfile";
+      HorizSizing = "right";
+      VertSizing = "bottom";
+      position = "0 0";
+      Extent = "294 40";
+      MinExtent = "8 2";
+      canSave = "1";
+      Visible = "1";
+      hovertime = "1000";
+      text = "Bombs Remaining: 7";
+      maxLength = "1024";
+   };
+
+   new GuiTextCtrl(timerText) {
+      Profile = "GuiBigTextProfile";
+      HorizSizing = "relative";
+      VertSizing = "relative";
+      position = "415 5";
+      Extent = "196 40";
+      MinExtent = "8 2";
+      Visible = "1";
+      text = "Time : 00:00:00";
+      maxLength = "255";
+   };
+};
+//--- OBJECT WRITE END ---

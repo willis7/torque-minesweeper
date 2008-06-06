@@ -1,0 +1,115 @@
+Max file E:\Documents and Settings\T\Desktop\Scratch\source_3\Environment Pack\Geometry\rock5.max exported to e:\documents and settings\t\desktop\scratch\source_3\environment pack\precompiled\rock5.dts
+Exported on Wed Oct 20 13:02:08 2004
+
+
+Config file not found.
+First pass: collect useful nodes...
+
+Processing Node bounds with parent Scene Root
+Bounding box found
+Processing Node base01 with parent Scene Root
+Found subtree starting at Node "base01"
+Processing Node start01 with parent base01
+Processing Node default2 with parent start01
+Processing Node col-1 with parent start01
+Processing Node detail2 with parent base01
+Processing Node collision-1 with parent base01
+
+Second pass:  put shape structure together...
+
+Adding detail named "detail2" of size 2 to subtree "base01".
+Adding detail named "collision-1" of size -1 to subtree "base01".
+Adding node "base01" with parent "base01" to subtree rooted on max-node "base01".
+Adding node "start01" with parent "base01" to subtree rooted on max-node "base01".
+Adding node "default2" with parent "start01" to subtree rooted on max-node "base01".
+Attaching object to node.
+Adding object named "default".
+Adding mesh of size 2 to object "default".
+Object offset transform:
+    scale:            x=1.81186, y=1.21174, z=1.04759
+    stretch rotation: x=0.00000, y=0.00000, z=0.00000, w=1.00000
+    translation:      x=0.00000, y=0.00000, z=-0.00000
+    actual rotation:  x=-0.00000, y=0.00000, z=0.00000, w=1.00000
+Adding node "col-1" with parent "start01" to subtree rooted on max-node "base01".
+Attaching object to node.
+Adding object named "col".
+Adding mesh of size -1 to object "col".
+Object offset transform:
+    scale:            x=2.09233, y=1.39932, z=1.20976
+    stretch rotation: x=-0.00000, y=0.00000, z=0.00000, w=1.00000
+    translation:      x=0.00000, y=0.00000, z=-0.00000
+    actual rotation:  x=-0.00000, y=0.00000, z=0.00000, w=1.00000
+
+Third pass:  Collapsing unneeded nodes...
+
+Removing node "base01"
+Removing node "start01"
+
+Add default object states...
+
+Adding object state to 1 detail level(s) of mesh "default".
+Adding frame.
+Object is visible.
+576 faces, 1728 verts, 1728 tverts before cropping textures and joining verts
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "col".
+Adding frame.
+Object is visible.
+576 faces, 1728 verts, 1728 tverts before cropping textures and joining verts
+---------------------------------
+
+Add default node states...
+
+Adding node rotation at time 0 for node "default2".
+  rotation:     x=0.00000, y=0.00000, z=0.00000, w=0.99997
+---------------------------------
+Adding node translation at time 0 for node "default2".
+  translation:     x=-0.30349, y=0.63160, z=-0.00000
+---------------------------------
+Adding node rotation at time 0 for node "col-1".
+  rotation:     x=0.00000, y=0.00000, z=0.00000, w=1.00000
+---------------------------------
+Adding node translation at time 0 for node "col-1".
+  translation:     x=-0.18755, y=0.72088, z=-0.00000
+---------------------------------
+
+Adding 0 sequences...
+
+
+Optimizing meshes...
+
+Optimizing mesh "default" detail level 2.
+1728 verts before joining verts
+408 verts after joining verts
+576 faces before stripping
+Using quick and dirty stripping method.
+63 strips with average length 14.52 (range 4 to 75) and 213 reversals
+Results in 584 cache misses
+
+Optimizing mesh "col" detail level -1.
+1728 verts before joining verts
+290 verts after joining verts
+576 faces before stripping
+Using quick and dirty stripping method.
+15 strips with average length 51.07 (range 7 to 344) and 160 reversals
+Results in 434 cache misses
+
+Shape Hierarchy:
+
+   Details:
+      detail2, Subtree 0, objectDetail 0, size 2
+      collision-1, Subtree 0, objectDetail 1, size -1
+
+   Subtrees:
+      Subtree 0
+         default2 --> Object default with following details:  2
+         col-1 --> Object col with following details:  -1
+
+   Sequences:
+
+   Material list:
+   material #0: "rock2".
+
+Checking for duplicate nodes...
+
+Checking for duplicate objects...
